@@ -10,7 +10,14 @@
     'app':                        'scripts',
     '@angular':                   'https://npmcdn.com/@angular',
     '@ngrx':                      'https://npmcdn.com/@ngrx',
-    'rxjs':                       'https://npmcdn.com/rxjs@5.0.0-beta.6'
+    'rxjs':                       'https://npmcdn.com/rxjs@5.0.0-beta.6',
+    
+    // supporting packages for @ngrx/router
+    'query-string':               'https://npmcdn.com/query-string',
+    'object-assign':               'https://npmcdn.com/object-assign',
+    'path-to-regexp':               'https://npmcdn.com/path-to-regexp',
+    'strict-uri-encode':               'https://npmcdn.com/strict-uri-encode',
+    'isarray':               'https://npmcdn.com/isarray'
   };
 
   // packages tells the System loader how to load when no filename and/or no extension
@@ -26,6 +33,7 @@
     '@angular/platform-browser',
     '@angular/platform-browser-dynamic',
     '@ngrx/core',
+    '@ngrx/router',
     '@ngrx/store'
   ];
 

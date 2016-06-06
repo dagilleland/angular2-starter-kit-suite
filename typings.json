@@ -3,6 +3,7 @@
   "dependencies": {},
   "globalDependencies": {
     "es6-shim": "registry:dt/es6-shim#0.31.2+20160317120654",
-    "expect": "registry:dt/expect#1.13.4+20160316155526"
+    "expect": "registry:dt/expect#1.13.4+20160316155526",
+    "query-string": "github:DefinitelyTyped/DefinitelyTyped/query-string/query-string.d.ts#076815de3926839258ef23742e5efc7714b8fb89"
   }
 }

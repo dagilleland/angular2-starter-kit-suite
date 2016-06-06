@@ -3,6 +3,7 @@ import {Component, Input, ChangeDetectionStrategy, ViewEncapsulation} from '@ang
 @Component({
     selector: 'page-layout',
     template: `
+    <ng-content select='nav'></ng-content>
     <header class='page-head'>
       <h1 [innerHTML]='title'></h1>
     </header>
