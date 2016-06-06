@@ -18,5 +18,7 @@ header h1 small {
 }
 
 footer {
-  background-color: lightgray;  
+  background-color: lightgray; 
+  padding-bottom: 2px;
+  padding-left: 3px;
 }
