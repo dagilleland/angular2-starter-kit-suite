@@ -30,6 +30,7 @@
     '@angular/common',
     '@angular/compiler',
     '@angular/core',
+    '@angular/http',
     '@angular/platform-browser',
     '@angular/platform-browser-dynamic',
     '@ngrx/core',
